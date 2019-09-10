@@ -3,7 +3,7 @@ with Python 3.6 and Tensorflow r.1.14
 
 ## MonoGRNet: A Geometric Reasoning Network for 3D Object Localization
 
-This is an updated version of MonoGRNet(https://github.com/Zengyi-Qin/MonoGRNet). The original version is based on Python 2.7 and Tensorflow 1.4. Currently, I am using this Model for my own project and needed to update/adopt the code to Python 3.6 and Tensorflow 1.14. Please check the original Repository under https://github.com/Zengyi-Qin/MonoGRNet
+This is an updated version of [MonoGRNet](https://github.com/Zengyi-Qin/MonoGRNet). The original version is based on Python 2.7 and Tensorflow 1.4. Currently, I am using this Model for my own project and needed to update/adopt the code to Python 3.6 and Tensorflow 1.14. Please check the original Repository under https://github.com/Zengyi-Qin/MonoGRNet
 
 <br/>
 
