@@ -15,7 +15,7 @@ This is an updated version of MonoGRNet(https://github.com/Zengyi-Qin/MonoGRNet)
 ### Install
 Clone this repository
 ```bash
-git clone https://github.com/Zengyi-Qin/MonoGRNet.git
+git clone https://github.com/SamGhK/MonoGRNet_python36.git
 ```
 
 Download the [Kitti Object Detection Dataset](http://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d) ([image](http://www.cvlibs.net/download.php?file=data_object_image_2.zip), [calib](http://www.cvlibs.net/download.php?file=data_object_calib.zip) and [label](http://www.cvlibs.net/download.php?file=data_object_label_2.zip)) and place it into `data/KittiBox`. The folder should be in the following structure:
