@@ -1,0 +1,82 @@
+{
+  "arch": {
+    "deep_feat": "pool5"
+  },
+  "augment_level": -1,
+  "batch_size": 1,
+  "biggest_box_px": 10000,
+  "clip_norm": 1.0,
+  "data": {
+    "eval_cmd": "../submodules/KittiEvaluation/./evaluate_object",
+    "label_dir": "KittiBox/training/label_2",
+    "train_file": "KittiBox/train.txt",
+    "truncate_data": false,
+    "val_file": "KittiBox/val.txt"
+  },
+  "detect_truck": false,
+  "dirs": {
+    "base_path": "/home/dev-aug/CodingProjects/mono_object_detection/mono_grnet/hypes",
+    "data_dir": "/home/dev-aug/CodingProjects/mono_object_detection/mono_grnet/hypes/../data",
+    "image_dir": "/home/dev-aug/CodingProjects/mono_object_detection/mono_grnet/hypes/../outputs/kittiBox/images",
+    "output_dir": "/home/dev-aug/CodingProjects/mono_object_detection/mono_grnet/hypes/../outputs/kittiBox"
+  },
+  "early_feat_channels": 256,
+  "focus_size": 1.8,
+  "grid_height": 12,
+  "grid_width": 39,
+  "image_height": 384,
+  "image_width": 1248,
+  "logging": {
+    "display_iter": 500,
+    "eval_iter": 4000,
+    "image_iter": 150000,
+    "max_to_keep": 10,
+    "save_iter": 4000,
+    "write_iter": 800
+  },
+  "model": {
+    "architecture_file": "../encoder/vgg.py",
+    "evaluator_file": "../evals/kitti_eval.py",
+    "input_file": "../inputs/kitti_input.py",
+    "objective_file": "../decoder/fastBox.py",
+    "optimizer_file": "../optimizer/generic_optimizer.py"
+  },
+  "num_classes": 2,
+  "num_inner_channel": 512,
+  "path": [
+    "../include"
+  ],
+  "pretrained": "data/model_3D",
+  "region_size": 32,
+  "rezoom_change_loss": "center",
+  "rezoom_h_coords": [
+    -0.25,
+    0,
+    0.25
+  ],
+  "rezoom_w_coords": [
+    -0.25,
+    0,
+    0.25
+  ],
+  "scale_down": 0.1,
+  "solver": {
+    "epsilon": 1e-05,
+    "head_weights": [
+      1.0,
+      0.1
+    ],
+    "hungarian_iou": 0.35,
+    "learning_rate": 0.0001,
+    "learning_rate_step": null,
+    "max_steps": 96000,
+    "opt": "Adam",
+    "rnd_seed": 1,
+    "use_jitter": true,
+    "weights": ""
+  },
+  "tau": 0.35,
+  "use_mask": true,
+  "use_rezoom": true,
+  "wd": 0.0005
+}
