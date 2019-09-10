@@ -1,9 +1,6 @@
 SHELL := /bin/bash
 
-.PHONY: all-python2 all-python3
-#all-python2:
-#	pip install --user runcython
-#	makecython++ stitch_wrapper.pyx "" "stitch_rects.cpp ./hungarian/hungarian.cpp"
+.PHONY: all-python3
 
 all-python3:
 	pip3 install --user runcython3
