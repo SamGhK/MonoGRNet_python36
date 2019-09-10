@@ -50,5 +50,5 @@ python visualize.py
 ```
 
 ### Acknowledgement
-I would like to thank the original Authors for their great job and implementation. MonoGRNet(https://github.com/Zengyi-Qin/MonoGRNet)
+I would like to thank the original Authors for their great job and implementation. [MonoGRNet](https://github.com/Zengyi-Qin/MonoGRNet)
 
