@@ -8,7 +8,7 @@
     },
     "data": {
         "train_file": "KittiBox/train.txt",
-        "val_file": "KittiBox/val_vsi.txt",
+        "val_file": "KittiBox/val.txt",
         "truncate_data": false,
         "eval_cmd": "../submodules/KittiEvaluation/./evaluate_object",
         "label_dir": "KittiBox/training/label_2"
@@ -48,8 +48,6 @@
     "rezoom_h_coords": [-0.25, 0, 0.25],
     "image_height": 384,
     "image_width": 1248,
-    "image_vsi_height": 1200,
-    "image_vsi_width": 1920,
     "grid_width": 39,
     "grid_height": 12,
     "batch_size": 1,
